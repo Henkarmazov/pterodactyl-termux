@@ -1,0 +1,19 @@
+{
+  "name": "ptero-android-multi",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Panel server Node.js lokal (Henkaramazov) dengan console, file manager, ZIP, dan upload/download",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "socket.io": "^4.8.1"
+  }
+}
